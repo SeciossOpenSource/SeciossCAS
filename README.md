@@ -42,7 +42,7 @@ CREATE TABLE cloud_discovery (
       PRIMARY KEY (tenant,report_id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
  
- CREATE TABLE cloud_service (
+CREATE TABLE cloud_service (
       tenant varchar(64) NOT NULL,
       id varchar(100) NOT NULL,
       name varchar(100) DEFAULT NULL,
