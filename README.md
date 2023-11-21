@@ -8,7 +8,7 @@ Secioss CAS(Cloud App Security)は、以下の機能を提供するオープン�
 クラウドサービスのログの収集
 
 ### seciosssecuritycheck
-IdaaSクラウドサービスの設定情報収集と比較
+IaaSクラウドサービスの設定情報収集と比較
 
 ## 動作環境
 * OS：Rockey Linux8、Redhat Enterprise Linux 8
