@@ -19,6 +19,7 @@ IaaSクラウドサービスの設定情報収集と比較
 
 ### パッケージインストール
 `# dnf install packages/seciossaudit-0.2.0-8202.el8.noarch.rpm`
+
 `# dnf install packages/seciosssecuritycheck-0.2.0-8202.el8.noarch.rpm`
 
 ## 動作確認
