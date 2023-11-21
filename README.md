@@ -22,7 +22,7 @@ IaaSクラウドサービスの設定情報収集と比較
 
 `# dnf install packages/seciosssecuritycheck-0.2.0-8202.el8.noarch.rpm`
 
-## 動作確認
+## 動作確認準備
 ### seciossauditlog
 作業ディレクトリにsample.pyを移動します。
 `# cp scripts/sample.py work`
@@ -137,11 +137,12 @@ prn: APIにアクセスするプロジェクトのサービスアカウントの
 certificate: APIにアクセスするプロジェクトのサービスアカウントの秘密鍵
 
 
-### 実行
+## 動作確認
 以下のように実行すると標準出力に結果が表示されます。
 ### seciossauditlog
 `# python3 sample.py`
 
 ### seciosssecuritycheck
+/opt/secioss/etc/securitycheck配下に置かれている設定に基づいて判定します。
 `# python3 sample.py`
 
